@@ -5,11 +5,9 @@ class Config:
     General confirguration parent class
     '''
 
-    NEWS_API_BASE_URL = "https://newsapi.org/v2/{}?country=us&apiKey={}"
+    NEWS_API_BASE_URL="https://newsapi.org/v2/{}?country=us&apiKey={}"
 
-    SOURCES_API_URL = "https:/VI /newsapi.org/v2/sources?apiKey{}"
-
-    NEWS_API_KEY = 'e9848d19677449d9bb53116781820443'
+    NEWS_API_KEY='e9848d19677449d9bb53116781820443'
 
 
 class ProdConfig(Config):
