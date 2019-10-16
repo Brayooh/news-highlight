@@ -6,7 +6,7 @@
         <div class="card bg-danger">
         {% for new in news_list %}
         <div style="height: 100vh" class="col-md-4  card-body " style="text-align: center">
-                <div class="card-header" style="font-size: 20px;">{{new.url}}</div>
+                <div class="card-header" style="font-size: 20px;">{{new.source}}</div>
             <div class="thumbnails"> <br>
                 <img src="{{ new.urlToImage }}" width="350" height="200"
                     class="bd-placeholder-img-lg featurette-image img-fluid mx-auto">
